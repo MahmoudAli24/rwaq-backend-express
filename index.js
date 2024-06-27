@@ -8,7 +8,7 @@ const authRoutes = require('./routes/authRoutes');
 const studentRoutes = require('./routes/studentRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const teacherRoutes = require('./routes/teacherRoutes');
-const port = 3001
+const port = process.env.PORT
 
 const app = express();
 
